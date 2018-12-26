@@ -998,7 +998,9 @@ code{
 }
 /* Doesn't seem to work; thus no horizontal scroll when line numbers absent */
 .highlight > pre {
-    white-space: pre; /* Solves horizontal scroll via black magic */
+      word-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
 }
 .gist pre {
   color: #515151;
