@@ -1,0 +1,15 @@
+<html>
+{% include head.html %}
+<body cz-shortcut-listen="true" id="bg-image">
+{% include navigation.html %}
+    <div class="container">
+        <!-- Jumbotron -->
+        <div class="jumbotron" style="background:rgb(0,0,0,0.5)!important">
+            <h1>{{ page.title }}</h1>
+            <p>{{ content }}</p>
+        </div>
+{% include footer.html %}
+    </div>
+{% include scripts.html %}
+</body>
+</html>

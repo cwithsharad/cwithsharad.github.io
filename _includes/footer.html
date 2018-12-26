@@ -1,0 +1,35 @@
+   <!-- Dialogs -->
+                <hr>   
+        <div class="row tall-row">
+            <div class="col-lg-12">
+                <h2>Connect with me</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header" style="text-align:center!important;">
+                                <h4 class="modal-title">Feel free to ask or suggest anything, I :heart: suggestions !<h4>
+                            </div>
+                            <!-- <div class="modal-body"> -->
+                                <!-- <p></p> -->
+                            <!-- </div> -->
+                            <div class="modal-body" style="text-align:center!important;">
+							{% for id in site.author.contact %}
+                                <a href="{{id.url}}" target="_blank">{{ id.title | capitalize }}</a>
+							{% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+<div class="row tall-row">
+	<div class="col-md-12">
+		<p>© <a href="{{site.baseurl}}">{{ site.date }} {{ site.title }}</a></p>
+	</div>
+</div>
