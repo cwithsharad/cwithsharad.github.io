@@ -996,8 +996,8 @@ code{
   border-radius: 3px;
   color: #FFFFFF;
       word-wordwrap: normal;
-  overflow: auto;
   overflow-y: hidden;
+	overflow-x: scroll;
 }
 .gist pre {
   color: #515151;
