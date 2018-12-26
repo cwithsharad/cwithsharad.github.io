@@ -995,10 +995,7 @@ code{
   padding: 6px 10px;
   border-radius: 3px;
   color: #FFFFFF;
-}
-/* Doesn't seem to work; thus no horizontal scroll when line numbers absent */
-.highlight > pre {
-      word-wrap: normal;
+      word-wordwrap: normal;
   overflow: auto;
   overflow-y: hidden;
 }
