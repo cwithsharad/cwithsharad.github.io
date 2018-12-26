@@ -43,13 +43,13 @@ toc:
   - title: Categories
     url: /categories/    
   - title: Author
-    url: /author/
+    url: /author
   - title: Resources
     subfolderitems:
       - page: Quizzes
-        url: /quizzes/
+        url: /quizzes
       - page: PDFs
-        url: /pdfs/
+        url: /pdfs
         
 skills:
    - title: C
