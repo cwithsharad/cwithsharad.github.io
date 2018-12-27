@@ -10,7 +10,7 @@
 <!--		<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
 		<a class="navbar-brand" href="{{ site.baseurl }}/"> <img style="width:150px; height 50px;" src="{{site.baseurl}}/assets/img/logo-top.png"></a>
 	</div>
-	<div id="navbar" class="navbar-collapse collapse">
+<div id="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav navbar-right">
 		{% for item in site.toc %}
 			{% if item.subfolderitems %}				
@@ -26,29 +26,6 @@
 			<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 			{% endif %}
 		{% endfor %}	
-<ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">More options</a>
-                <ul class="dropdown-menu">
-                    <li><a tabindex="-1" href="#">Second level</a></li>
-                    <li><a href="#">Second level</a></li>
-                    <li><a href="#">Second level</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Logout</a></li>
-</ul>
-			
-</ul>			
-<li><a href="#">Login</a></li>
-            <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">More options</a>
-                <ul class="dropdown-menu">
-                    <li><a tabindex="-1" href="#">Second level</a></li>
-                    <li><a href="#">Second level</a></li>
-                    <li><a href="#">Second level</a></li>
-                </ul>
-</li>
 			
 		</ul>
 	</div>
