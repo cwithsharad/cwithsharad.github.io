@@ -4,11 +4,13 @@ title: Search
 ---
 
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
+    <div class="row">
     <div class="col-lg-12">
         <div class="input-group input-group-lg">
             <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1">
         </div> 
     </div>
+    </div>        
 </div>    
     
 <div class="col-lg-12">
