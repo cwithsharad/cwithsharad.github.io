@@ -11,18 +11,23 @@ layout: blog
 
 
 <div class="row">
-{% for post in paginator.posts %}
-<div class="col-lg-12">	
-<div class="panel panel-default" style="background:transparent!important">
-<div class="panel-heading" style="background:rgb(0,0,0,0.8)!important">
-	<a href="{{post.url}}">{{ post.title | capitalize }}</a>
-</div>
-<div class="panel-body" style="background:rgb(0,0,0,0.4)!important">
-<span class="badge">Author: {{ post.author }}</span>	
-<span class="badge">{{post.date|date_to_string}}</span>				
-</div>
-</div>	
+	{% for post in paginator.posts %}
+		<div class="col-lg-12">	
+			<div class="panel panel-default" style="background:transparent!important">
+				<div class="panel-heading" style="background:rgb(0,0,0,0.8)!important">
+				<a href="{{post.url}}">{{ post.title | capitalize }}</a>
+				</div>
+				<div class="panel-body" style="background:rgb(0,0,0,0.4)!important">
+					<span class="badge">Author: {{ post.author }}</span>	
+					<span class="badge">{{post.date|date_to_string}}</span>				
+				</div>
+			</div>	
+<div class="alert alert-dismissible alert-warning">
+                    <button type="button" class="close">×</button>
+                    <h4>Warning!</h4>
+                    <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
 </div>			
+		</div>			
 {% endfor %}
 </div> 
 
