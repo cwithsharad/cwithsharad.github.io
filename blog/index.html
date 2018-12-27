@@ -14,10 +14,16 @@ layout: blog
 	{% for post in paginator.posts %}
 		<div class="col-lg-12" >	
 			<ul class="list-group">
-				<li class="list-group-item">			    
+				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">			    
+<div class="row">				
+	<div class="col-lg-8" >	
 						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
+	</div>
+	<div class="col-lg-4" >		
 						<span class="badge">Author: {{ post.author }}</span>	
 						<span class="badge">{{post.date|date_to_string}}</span>	
+	</div>		
+</div>	
 				</li>
 			</ul>	
 		</div>			
