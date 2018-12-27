@@ -12,7 +12,7 @@ layout: blog
 {% if paginator.page == 1 %}
 {% for latest_post in paginator.posts limit:1 %}
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
-	<h1>{{latest_post.title}}</h1>
+	<h3 style="color:white!important;";>{{latest_post.title}}</h3>
             <p>
                 <a class="btn btn-lg btn-primary" href="{{latest_post.url}}" role="button">Read more»</a>
             </p>	
@@ -24,15 +24,15 @@ layout: blog
 		<div class="col-lg-12" >	
 			<ul class="list-group">
 				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">			    
-<div class="row">				
-	<div class="col-lg-10" >	
+				<div class="row">				
+					<div class="col-lg-10" >	
 						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
-	</div>
-	<div class="col-lg-2" >		
+					</div>
+					<div class="col-lg-2" >		
 						<span class="badge" style="margin:1px;">Author: {{ post.author }}</span>	
 						<span class="badge" style="margin:1px;">{{post.date|date_to_string}}</span>	
-	</div>		
-</div>	
+					</div>		
+				</div>	
 				</li>
 			</ul>	
 		</div>			
