@@ -7,7 +7,7 @@ title: Search
     <div class="row">
     <div class="col-lg-12">
         <div class="input-group input-group-lg">
-            <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1">
+            <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1" style="width=100%!important;">
         </div> 
     </div>
     </div>
@@ -27,13 +27,3 @@ title: Search
     json: '{{ site.baseurl }}/search.json'
   })
   </script>
-
-<!--
-results-container
--->
-
-<form action="" autocomplete="off" class="form-horizontal" method="post" accept-charset="utf-8">
-        <div class="input-group">
-            <input name="searchtext" value="" class="form-control" type="text">
-        </div>
-</form>
