@@ -7,7 +7,7 @@ title: Search
     <div class="row">
     <div class="col-lg-12">
         <div class="input-group input-group-lg">
-            <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1" style="width=100%!important;">
+            <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1" style="width: 100%!important;">
         </div> 
     </div>
     </div>
