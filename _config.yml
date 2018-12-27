@@ -50,7 +50,20 @@ toc:
         url: /quizzes
       - page: PDFs
         url: /pdfs
-        
+  - title: Group 1
+    subfolderitems:
+      - page: Thing 1
+        url: /thing1.html
+      - page: Thing 2
+        url: /thing2.html
+        subsubfolderitems:
+          - page: Subthing 1
+            url: /subthing1.html
+          - page: Subthing 2
+            url: /subthing2.html
+      - page: Thing 3
+        url: /thing3.html
+
 skills:
    - title: C
      level: 91
