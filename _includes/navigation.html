@@ -22,9 +22,9 @@
 	
 				{% for entry in item.subfolderitems %}
 					 {% if entry.subsubfolderitems %}
-						<li class="dropdown">
+						<li class="dropdown-submmenu">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ entry.title }}<span class="caret"></span> </a>
-							<ul class="dropdown-menu" role="submenu">	
+							<ul class="dropdown-menu" role="menu">	
 	
 								{% for subentry in entry.subsubfolderitems %}
 									<li><a href="{{ site.baseurl }}{{ subentry.url }}">{{subentry.page}}</a></li>			
