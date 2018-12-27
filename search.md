@@ -10,13 +10,10 @@ title: Search
             <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1">
         </div> 
     </div>
-    </div>        
+    </div>
+<ol id="results-container">
+</ol>
 </div>    
-    
-<div class="col-lg-12">
-            <div class="list-group" id="results-container">
-            </div>
-</div>
 
   <!-- script pointing to search.js -->
   <script src="{{ site.baseurl }}/assets/js/search.js"></script>
