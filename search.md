@@ -8,10 +8,11 @@ title: Search
        <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1">
    </div> 
 </div>
-<br/>
-<br/>
-<ol id="results-container">
-<ol> 
+    
+<div class="col-lg-12">
+            <div class="list-group" id="results-container">
+            </div>
+</div>
 
   <!-- script pointing to search.js -->
   <script src="{{ site.baseurl }}/assets/js/search.js"></script>
@@ -23,3 +24,7 @@ title: Search
     json: '{{ site.baseurl }}/search.json'
   })
   </script>
+
+<!--
+results-container
+-->
