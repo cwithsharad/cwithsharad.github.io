@@ -11,6 +11,8 @@ title: Search
         </div> 
     </div>
     </div>
+<br/>    
+<hr/>
 <ol id="results-container">
 </ol>
 </div>    
