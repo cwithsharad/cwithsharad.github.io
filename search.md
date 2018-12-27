@@ -3,19 +3,14 @@ layout: page
 title: Search
 ---
 
-<!-- Html Elements for Search -->
+<form class="bs-component">
+                    <div class="form-group">
+                        <input class="form-control" id="focusedInput" placeholder="Search... type="text">
+                    </div>
+</form>	
 
-<div id="search-container" style="width=100%;">
-	
-	<input type="text" id="search-input" placeholder="Search...">
-
-</div>
-
-<br>
-<div>
-	<ol id="results-container">
-	</ol>
-</div>
+<ol id="results-container">
+<ol>
 
 
   <!-- script pointing to search.js -->
@@ -23,31 +18,8 @@ title: Search
 
   <script>
   var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
+    searchInput: document.getElementById('focusedInput'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/search.json'
   })
   </script>
-  
-  
-
-<style> 
-input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
-}
-</style>
