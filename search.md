@@ -2,7 +2,7 @@
 layout: blog
 title: Search
 ---
-
+<style>
 .overlay {
   height: 100%;
   width: 100%;
