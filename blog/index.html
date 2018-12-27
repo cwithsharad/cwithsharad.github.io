@@ -22,12 +22,12 @@ layout: blog
 					<span class="badge">{{post.date|date_to_string}}</span>				
 				</div>
 			</div>	
-<div class="alert alert-dismissible alert-warning">
+<div class="alert alert-dismissible alert-warning" style="background:rgb(0,0,0,0.8)!important">
                     <button type="button" class="close">
 			<span class="badge">Author: {{ post.author }}</span>	
 			<span class="badge">{{post.date|date_to_string}}</span>						    
 		    </button>
-                    <h4>Warning!</h4>
+                    <h5><a href="{{post.url}}">{{ post.title | capitalize }}</a></h5>
                     <p><a href="{{post.url}}">{{ post.title | capitalize }}</a></p>
 </div>			
 		</div>			
