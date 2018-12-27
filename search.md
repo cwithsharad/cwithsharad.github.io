@@ -3,16 +3,21 @@ layout: blog
 title: Search
 ---
 
-<div class="col-lg-12">
+<div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
+ <div class="row">
+           <div class="col-lg-12">
                 <form class="bs-component">
                     <div class="form-group">
-                        <input class="form-control" id="focusedInput" placeholder="Search... type="text">
+                        <input class="form-control" id="inputDefault" placeholder="Search... type="text">
                     </div>
-                </form>	
-</div>
-                                                                                                        
+                </form>
+            </div>
+</div>  
 <ol id="results-container">
 <ol>
+</div>
+                                                                                                        
+
 
 
   <!-- script pointing to search.js -->
@@ -20,25 +25,8 @@ title: Search
 
   <script>
   var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('focusedInput'),
+    searchInput: document.getElementById('inputDefault'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/search.json'
   })
   </script>
-
-
-
-
-
-
-
- <div class="row">
-           <div class="col-lg-12">
-                <form class="bs-component">
-                    <div class="form-group">
-                        <label class="control-label" for="inputDefault">Default input</label>
-                        <input class="form-control" id="inputDefault" type="text">
-                    </div>
-                </form>
-            </div>
-</div>
