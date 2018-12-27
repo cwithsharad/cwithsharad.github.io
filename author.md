@@ -11,7 +11,7 @@ title: Author[s]
   {% for skill in site.skills %}
 	<h6 style="color:white!important">{{ skill.title }} | {{skill.level}}%</h6>
 		<div class="col-lg-12">
-			<div class="progress progress-striped">
+			<div class="progress progress-striped active">
 				<div class="progress-bar progress-bar-{{skill.color}}" style="width: {{skill.level}}%"></div>
 			</div>
 		</div>	
