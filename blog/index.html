@@ -23,9 +23,12 @@ layout: blog
 				</div>
 			</div>	
 <div class="alert alert-dismissible alert-warning">
-                    <button type="button" class="close">×</button>
+                    <button type="button" class="close">
+			<span class="badge">Author: {{ post.author }}</span>	
+			<span class="badge">{{post.date|date_to_string}}</span>						    
+		    </button>
                     <h4>Warning!</h4>
-                    <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+                    <p><a href="{{post.url}}">{{ post.title | capitalize }}</a></p>
 </div>			
 		</div>			
 {% endfor %}
