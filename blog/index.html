@@ -12,7 +12,7 @@ layout: blog
 {% if paginator.page == 1 %}
 {% for latest_post in paginator.posts limit:1 %}
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
-	<h3 style="color:white!important;";>{{latest_post.title}}</h3>
+	<h2>{{latest_post.title}}</h3>
             <p>
                 <a class="btn btn-lg btn-primary" href="{{latest_post.url}}" role="button">Read more»</a>
             </p>	
