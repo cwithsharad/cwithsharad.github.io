@@ -10,13 +10,36 @@ layout: blog
 {% endif %}
 
 {% if paginator.page == 1 %}
+{% for latest_post in paginator.posts limit:1 %}
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
-	<h1>{{paginator.post[0].title}}</h1>
+	<h1>{{latest_post.title}}</h1>
             <p>
-                <a class="btn btn-lg btn-primary" href="{{paginator.post[0].url}}" role="button">Read more»</a>
-            </p>
+                <a class="btn btn-lg btn-primary" href="{{latest_post.url}}" role="button">Read more»</a>
+            </p>	
 </div>
-{% endif %}
+{% endfor %}
+
+<div class="row">
+	{% for post in paginator.posts offset:1 %}
+		<div class="col-lg-12" >	
+			<ul class="list-group">
+				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">			    
+<div class="row">				
+	<div class="col-lg-10" >	
+						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
+	</div>
+	<div class="col-lg-2" >		
+						<span class="badge" style="margin:1px;">Author: {{ post.author }}</span>	
+						<span class="badge" style="margin:1px;">{{post.date|date_to_string}}</span>	
+	</div>		
+</div>	
+				</li>
+			</ul>	
+		</div>			
+{% endfor %}
+</div> 
+
+{% else %}
 
 
 <div class="row">
@@ -39,7 +62,7 @@ layout: blog
 {% endfor %}
 </div> 
 
-
+{% endif %}
 
 <!-- Pagination links -->
 <div class="row">
