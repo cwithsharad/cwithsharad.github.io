@@ -11,9 +11,9 @@ layout: blog
 
 {% if paginator.page == 1 %}
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
-	<h1>{{site.post[0].title}}</h1>
+	<h1>{{paginator.post[0].title}}</h1>
             <p>
-                <a class="btn btn-lg btn-primary" href="{{site.post[0].url}}" role="button">Read more»</a>
+                <a class="btn btn-lg btn-primary" href="{{paginator.post[0].url}}" role="button">Read more»</a>
             </p>
 </div>
 {% endif %}
