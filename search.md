@@ -4,21 +4,13 @@ title: Search
 ---
 
 <div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
- <div class="row">
-           <div class="col-lg-12">
-                <form class="bs-component">
-                    <div class="form-group">
-                        <input class="form-control" id="inputDefault" placeholder="Search... type="text">
-                    </div>
-                </form>
-            </div>
-</div>  
+ <div class="input-group input-group-lg">
+  <input type="text" class="form-control" id="inputDefault" placeholder="Search..." aria-describedby="sizing-addon1">
+</div> 
 <ol id="results-container">
 <ol>
 </div>
-                                                                                                        
-
-
+ 
 
   <!-- script pointing to search.js -->
   <script src="{{ site.baseurl }}/assets/js/search.js"></script>
