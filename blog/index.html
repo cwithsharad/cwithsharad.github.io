@@ -10,11 +10,11 @@ layout: blog
 {% endif %}
 
 
-<div class="row">
+<div class="row" style="background:rgb(0,0,0,0.8)!important">
 	{% for post in paginator.posts %}
-		<div class="col-lg-12">	
+		<div class="col-lg-12" >	
 			<ul class="list-group">
-				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">
+				<li class="list-group-item">
 					<div class="col-lg-8">				    
 						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
 					</div>
