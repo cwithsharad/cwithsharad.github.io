@@ -31,3 +31,9 @@ title: Search
 <!--
 results-container
 -->
+
+<form action="" autocomplete="off" class="form-horizontal" method="post" accept-charset="utf-8">
+        <div class="input-group">
+            <input name="searchtext" value="" class="form-control" type="text">
+        </div>
+</form>
