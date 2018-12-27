@@ -1,7 +1,9 @@
----
-layout: blog
-title: Search
----
+<html>
+{% include head.html %}
+<body cz-shortcut-listen="true" id="bg-image">
+{% include navigation.html %}
+    <div class="container">
+      
 <style>
 .overlay {
   height: 100%;
@@ -105,3 +107,8 @@ function closeSearch() {
     json: '{{ site.baseurl }}/search.json'
   })
   </script>
+
+    </div>
+{% include scripts.html %}
+</body>
+</html>
