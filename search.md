@@ -3,12 +3,14 @@ layout: page
 title: Search
 ---
 
-<form class="bs-component">
+<div class="col-lg-12">
+                <form class="bs-component">
                     <div class="form-group">
                         <input class="form-control" id="focusedInput" placeholder="Search... type="text">
                     </div>
-</form>	
-
+                </form>	
+</div>
+                                                                                                        
 <ol id="results-container">
 <ol>
 
