@@ -2,7 +2,7 @@
 title: PROGRAM TO ENTER THE TOTAL NUMBER OF CLASSES IN A SCHOOL AND THEN ENTER THE
   STRENGTH OF CLASS AND THE ENTER THE ROLL NUMBER AND NAME OF STUDENTS AND PRINT THEM,
   USING NESTED STRUCTURES.
-date: 2018-03-29 14:15:08 Z
+date: 2018-03-29 14:15:00 Z
 categories:
 - C LANGUAGE PROGRAMS
 - STRUCTURE PROGRAMS
@@ -63,11 +63,8 @@ printf("\n");
 }
 getch();
 }
-
+```
  
-
+**OUTPUT**
 
 ![structnest.png](https://cwithsharad.files.wordpress.com/2018/03/structnest.png)
-
- 
-```
