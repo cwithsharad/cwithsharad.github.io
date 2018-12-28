@@ -6,7 +6,6 @@ title: Search
 <form>
   <div>
     <input type="text">
-    <input type="submit" value="Search">
   </div>
 </form>
 
@@ -26,7 +25,6 @@ create the room for the button using `margin`
 
 form > div {
   position:relative;
-  margin-right:110px; /* same with `button width` + `button distance from search field` */
 }
 
 
