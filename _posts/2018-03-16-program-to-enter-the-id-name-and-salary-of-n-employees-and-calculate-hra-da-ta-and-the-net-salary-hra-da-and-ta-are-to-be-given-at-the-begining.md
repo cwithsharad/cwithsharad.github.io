@@ -1,7 +1,7 @@
 ---
 title: PROGRAM TO ENTER THE ID, NAME AND SALARY OF  N EMPLOYEES AND CALCULATE HRA,
   DA, TA AND THE NET SALARY. HRA, DA AND TA ARE TO BE GIVEN AT THE BEGINING.
-date: 2018-03-16 17:22:38 Z
+date: 2018-03-16 17:22:00 Z
 layout: post
 ---
 
@@ -66,10 +66,9 @@ T=D/T;
 NET=NET+salary;
 return NET;
 }
+```
 
-
-**OUTPUT :-**
+**OUTPUT**
 
 
 ![structure employess.png](https://cwithsharad.files.wordpress.com/2018/03/structure-employess.png)
-```
