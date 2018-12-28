@@ -1,0 +1,30 @@
+<html>
+{% include head.html %}
+<body cz-shortcut-listen="true" id="bg-image" onLoad="typeWriter()">
+{% include navigation.html %}
+    <div class="container">
+        <!-- Jumbotron -->
+        <div class="jumbotron" style="background:rgb(0,0,0,0.5)!important">
+            <h1>{{ page.title }}</h1>
+            <p id="writer"></p>
+        </div>
+{% include footer.html %}
+    </div>
+{% include scripts.html %}
+
+<script>
+var i = 0;
+var txt = '{{content}}';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
