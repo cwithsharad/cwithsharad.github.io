@@ -27,6 +27,9 @@ title: Search
 
 
 <style>
+input:focus, textarea:focus {
+    outline: none;
+}
 
 form input {box-sizing:border-box}
 
