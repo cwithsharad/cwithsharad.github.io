@@ -79,13 +79,22 @@ skills:
   color: info
 - title: Python
   level: 69
-  color: warning
+  color: info
+- title: Linux
+  level: 54
+  color: info
 - title: Html
   level: 95
-  color: danger
+  color: info
 - title: CSS
   level: 89
-  color: success
+  color: info
 - title: Jekyll
   level: 88
-  color: danger
+  color: info
+- title: Liquid
+  level: 27
+  color: info
+- title: Kotlin
+  level: 37
+  color: info
