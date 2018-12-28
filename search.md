@@ -5,7 +5,7 @@ title: Search
 
 <form>
   <div>
-    <input id="in_Default" type="text" placeholder="Search.." name="search">
+    <input id="in_Default" type="text" placeholder="Search.." name="search" autocomplete="off">
   </div>
 </form>
 
