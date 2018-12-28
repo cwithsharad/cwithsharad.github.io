@@ -10,7 +10,8 @@ title: Search
 </form>
 
 <hr/>
-<ol style="text-align: left!important;" id="results-container"></ol>
+<ol style="text-align: left!important; text-size:16px!important;  background-size: 2px 2px; background-color: rgba(0,0,0,0.8);" id="results-container">
+</ol>
 
 <!-- script pointing to search.js -->
   <script src="{{ site.baseurl }}/assets/js/search.js"></script>
