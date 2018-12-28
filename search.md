@@ -17,7 +17,7 @@ title: Search
 
   <script>
   var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('nputDefault'),
+    searchInput: document.getElementById('inputDefault'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/search.json'
   })
