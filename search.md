@@ -5,9 +5,26 @@ title: Search
 
 <form>
   <div>
-    <input type="text">
+    <input id="inputDefault" type="text" placeholder="Search.." name="search">
   </div>
 </form>
+
+<hr/>
+<ol style="text-align: left!important;" id="results-container"></ol>
+
+<!-- script pointing to search.js -->
+  <script src="{{ site.baseurl }}/assets/js/search.js"></script>
+
+  <script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('nputDefault'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json'
+  })
+</script>
+
+
+
 
 <style>
 /*
