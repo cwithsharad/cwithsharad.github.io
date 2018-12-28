@@ -5,7 +5,7 @@ title: Search
 
 <form>
   <div>
-    <input id="inputDefault" type="text" placeholder="Search.." name="search">
+    <input id="in_Default" type="text" placeholder="Search.." name="search">
   </div>
 </form>
 
@@ -17,7 +17,7 @@ title: Search
 
   <script>
   var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('inputDefault'),
+    searchInput: document.getElementById('in_Default'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/search.json'
   })
