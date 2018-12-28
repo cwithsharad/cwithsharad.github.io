@@ -53,7 +53,17 @@ expand this element to 100% width!
 */
 
 form input[type="text"] {
-  display:block;
-  width:100%;
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: none;
+  width: 80%;
+  background: transparent;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+}
+
+form input[type="text"]:hover {
+  border: 2px solid red;
 }
 </style>
