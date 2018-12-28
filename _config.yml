@@ -59,6 +59,17 @@ toc:
     url: "/quizzes"
   - page: PDFs
     url: "/pdfs"
+- title: Projects
+  subfolderitems:
+  - page: Bank Management System
+    url: "https://sharadcodes.github.io/BMS"
+  - page: TIC-TAC-2 GAME
+    url: "https://sharadcodes.github.io/tictac2/"
+  - page: FUN-WITH-C
+    url: "https://sharadcodes.github.io/funwithc/"
+  - page: Run-CPP
+    url: "https://sharadcodes.github.io/runcpp/"
+    
 skills:
 - title: C
   level: 91
