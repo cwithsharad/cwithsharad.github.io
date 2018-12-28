@@ -8,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+google_a_id: "UA-126815861-1"
 defaults:
 - scope:
     path: _posts
