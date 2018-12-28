@@ -13,8 +13,8 @@ layout: post
 
 
 ```c
-#include
-#include
+#include<stdio.h>
+#include<conio.h>
 float H,D,T;
 float NET=0;
 float nsal(int);
