@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Author[s]
+layout: default
 ---
 
  <h2 class="display-3" style="color:white!important">{{ site.author.name }}</h2>

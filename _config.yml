@@ -1,85 +1,79 @@
-# Site Info
+---
 title: CODE WITH SHARAD
-tagline: 'A site dedicated to C.S.'
-description: 'A site dedicated to C.S. and Technnology. Made by <a href="https://www.sharad.cf" target="_blank">@sharadcodes</a>.'
-baseurl: ""
-url: "https://cwithsharad.github.io"
-logo: 'logo.png'
-
-# Site configurations
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: _posts
+  values:
+    layout: post
+    author: Sharad Raj
+tagline: A site dedicated to C.S.
+description: A site dedicated to C.S. and Technnology. Made by <a href="https://www.sharad.cf"
+  target="_blank">@sharadcodes</a>.
+baseurl: ''
+url: https://cwithsharad.github.io
+logo: logo.png
 plugins:
-  - jekyll-paginate
-  - jemoji
+- jekyll-paginate
+- jemoji
 markdown: kramdown
 paginate: 10
-paginate_path: '/blog/page:num'
-
-
-# About/contact
+paginate_path: "/blog/page:num"
 author:
   name: Sharad Raj
-  description: A passionate <strong>developer and student</strong>, learning to be a giant.
+  description: A passionate <strong>developer and student</strong>, learning to be
+    a giant.
   contact:
-    - title: linkedin
-      url: https://www.linkedin.com/in/srsmaurya
-    - title: github
-      url: https://github.com/sharadcodes
-    - title: facebook
-      url: https://fb.me/therealsharad
-    - title: twitter
-      url: https://twitter.com/iamsharadraj
-    - title: email
-      url: mailto:cwithsharad@gmail.com
-
-# Puglins
-google_analytics_token: '' # google analytics
-disqus_short_name: 'cwithsharad' # disqus
-
+  - title: linkedin
+    url: https://www.linkedin.com/in/srsmaurya
+  - title: github
+    url: https://github.com/sharadcodes
+  - title: facebook
+    url: https://fb.me/therealsharad
+  - title: twitter
+    url: https://twitter.com/iamsharadraj
+  - title: email
+    url: mailto:cwithsharad@gmail.com
+google_analytics_token: ''
+disqus_short_name: cwithsharad
 toc:
-  - title: Home
-    url: /
-  - title: Blog
-    url: /blog/
-  - title: Categories
-    url: /categories/    
-  - title: Author
-    url: /author
-  - title: Resources
-    subfolderitems:
-      - page: Quizzes
-        url: /quizzes
-      - page: PDFs
-        url: /pdfs
-
+- title: Home
+  url: "/"
+- title: Blog
+  url: "/blog/"
+- title: Categories
+  url: "/categories/"
+- title: Author
+  url: "/author"
+- title: Resources
+  subfolderitems:
+  - page: Quizzes
+    url: "/quizzes"
+  - page: PDFs
+    url: "/pdfs"
 skills:
-   - title: C
-     level: 91
-     color: info
-
-   - title: C++
-     level: 81
-     color: info
-     
-   - title: Python
-     level: 69
-     color: warning
-     
-   - title: Html
-     level: 95
-     color: danger        
-     
-   - title: CSS
-     level: 89
-     color: success
-
-   - title: Jekyll
-     level: 88
-     color: danger
-     
-defaults:
-  -
-    scope:
-      path: "_posts"
-    values:
-      layout: "post"
-      author: Sharad Raj
+- title: C
+  level: 91
+  color: info
+- title: C++
+  level: 81
+  color: info
+- title: Python
+  level: 69
+  color: warning
+- title: Html
+  level: 95
+  color: danger
+- title: CSS
+  level: 89
+  color: success
+- title: Jekyll
+  level: 88
+  color: danger
