@@ -51,8 +51,6 @@ toc:
   url: "/categories/"
 - title: Search
   url: "/search"
-- title: Author
-  url: "/author"
 - title: Resources
   subfolderitems:
   - page: Quizzes
@@ -69,6 +67,8 @@ toc:
     url: "https://sharadcodes.github.io/funwithc/"
   - page: Run-CPP
     url: "https://sharadcodes.github.io/runcpp/"
+- title: Author
+  url: "/author"
     
 skills:
 - title: C
