@@ -57,7 +57,7 @@ form input[type="text"] {
   font-size: 17px;
   border: none;
   float: none;
-  width: 80%;
+  width: 100%;
   background: transparent;
   color: #00ff00;
   border: 2px solid #00ff00;
