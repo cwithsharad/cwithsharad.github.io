@@ -21,7 +21,7 @@ var typewriter = new Typewriter(app, {
     cursor: "_"
 });
 
-typewriter.typeString('{{ content | remove: "<p>" | remove: "</p>" }}')
+typewriter.typeString('{{ site.description }}')
     .pauseFor(2500)
     .start();
 </script>
