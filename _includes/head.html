@@ -110,23 +110,17 @@
 
 <!-- BG IMAGE CGNH -->
 <script>
+$(document).ready(function() {
+  var urls = ['{{site.baseurl}}/assets/img/back.jpg', '{{site.baseurl}}/assets/img/man_back.jpg', '{{site.baseurl}}/assets/img/pc_back.jpg', '{{site.baseurl}}/assets/img/hack_back.jpg'];
 
- window.onload = function () {
-  var backgroundImg=["{{site.baseurl}}/assets/img/back.jpg",
-		    "{{site.baseurl}}/assets/img/man_back.jpg",
-                    "{{site.baseurl}}/assets/img/pc_back.jpg",
-                    "{{site.baseurl}}/assets/img/hack_back.jpg"
-                    ]
-  
-    setInterval(changeImage, 4000);
-   function changeImage() {   
-    var i = Math.floor((Math.random() * 3));
-    
-    document.body.style.backgroundImage = "url('"+backgroundImg[i]+"')";
-    
-  }
-}
+  var cout = 1;
+  $('body').css('background-image', 'url("' + urls[0] + '")');
+  setInterval(function() {
+    $('body').css('background-image', 'url("' + urls[cout] + '")');
+    cout == urls.length-1 ? cout = 0 : cout++;
+  }, 5000);
 
+});
 </script>	
 	
 </head>
