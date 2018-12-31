@@ -47,4 +47,4 @@ getch();
 
 **OUTPUT**
 
-![{{post.title}}]({{site.baseurl}}/assets/post_images/{{post.title}}.jpg)
+![{{post.title}}]({{site.baseurl}}/assets/post_images/ds1.jpg)
