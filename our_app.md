@@ -1,5 +1,5 @@
 ---
-title: Our app
+title: Download CWS App
 layout: default
 ---
 
