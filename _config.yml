@@ -26,12 +26,14 @@ description: A site dedicated to C.S. and Technnology. Launched in 2017 for help
 baseurl: ''
 url: https://cwithsharad.github.io
 logo: logo.png
+
 plugins:
 - jekyll-paginate
 - jemoji
 - jekyll-archives
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-seo-tag
 
 markdown: kramdown
 paginate: 10
