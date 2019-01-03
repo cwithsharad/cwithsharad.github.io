@@ -64,12 +64,6 @@ toc:
   url: "/categories/"
 - title: Search
   url: "/search"
-- title: Resources
-  subfolderitems:
-  - page: Quizzes
-    url: "/quizzes"
-  - page: PDFs
-    url: "/pdfs"
 - title: Projects
   subfolderitems:
   - page: Bank Management System
