@@ -1,5 +1,7 @@
-# Privacy Policy
-
+---
+layout: default
+title: Privacy policy
+---
 Effective date: January 07, 2019
 
 CODE WITH SHARAD ("us", "we", or "our") operates the https://www.cwithsharad.cf website (the "Service").
