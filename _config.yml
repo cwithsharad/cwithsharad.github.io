@@ -75,8 +75,10 @@ toc:
     url: https://sharadcodes.github.io/funwithc/
   - page: Run-CPP
     url: https://sharadcodes.github.io/runcpp/
-- title: Download CWS App
+- title: Online chat
   url: "/app"
+- title: Download CWS App
+  url: "/chat"  
 - title: Author
   url: "/author"
 skills:
