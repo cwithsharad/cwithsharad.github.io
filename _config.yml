@@ -76,9 +76,9 @@ toc:
   - page: Run-CPP
     url: https://sharadcodes.github.io/runcpp/
 - title: Online chat
-  url: "/app"
+  url: "/chat"
 - title: Download CWS App
-  url: "/chat"  
+  url: "/app"  
 - title: Author
   url: "/author"
 skills:
