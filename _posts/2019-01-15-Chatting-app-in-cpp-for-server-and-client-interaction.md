@@ -3,13 +3,13 @@ title: Chatting app in cpp for server and client interaction
 layout: post 
 date: 2019-01-15 18:40:40
 categories: 
- -SOCKETS 
- -C++ LANGUAGE PROGRAMS 
+ - SOCKETS 
+ - C++ LANGUAGE PROGRAMS 
 --- 
 
 
 ### SYNTAX FOR SEREVR SIDE
-===
+
 ```cpp 
 #include <iostream>
 #include <string>
@@ -130,13 +130,16 @@ int main(int argc, char *argv[])
 ```
 
 ### SYNTAX FOR CLIENT SIDE
-===
+
 ```cpp
 #include <iostream>
 #include <string>
 #include <stdio.h>
 #include <sys/types.h>
-#include <sys/socket.h>
+#ifdef __WIN32__
+# include <winsock2.h>
+#else
+# include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <stdlib.h>
