@@ -8,7 +8,7 @@ categories:
 --- 
 
 
-### SYNTAX FOR SEREVR SIDE
+### SYNTAX FOR SERVER SIDE
 
 ```cpp 
 #include <iostream>
