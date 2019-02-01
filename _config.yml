@@ -81,6 +81,10 @@ toc:
   url: "/app"  
 - title: Author
   url: "/author"
+- title: References
+  subfolderitems:
+  - page: Websites
+    url: "/web_ref"
 skills:
 - title: C
   level: 91
