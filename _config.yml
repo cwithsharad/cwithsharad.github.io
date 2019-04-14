@@ -102,8 +102,8 @@ skills:
 - title: Jekyll
   level: 92
   color: info
-- title: Liquid
-  level: 27
+- title: Liquid Template Language
+  level: 49
   color: info
 - title: Python
   level: 27
