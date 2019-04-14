@@ -1,13 +1,90 @@
 ---
-title: Home
-layout: default
-description: A site dedicated to Computer Science and Technnology.It was Launched in 2017 for helping the students of Lucknow University in finding all the programs related to their course on a single site. The thought of launching this website came when I felt the need of a source which can help me in finding the programs related to my course and I saw that most of the sites or the blogs available are not that much oriented towards courses of Lucknow University, and  there are hardly few blogs or websites which are providing content for the students in Lucknow University.
+title: Blog
+layout: blog
 ---
-Hi! there Folks, welcome to my blog.
 
-It takes a lot of effort to make and upload program for you all, I will be glad if you will show some :heart:
-to this blog, till now 110 posts have been published and more will be in the future.
+{% if paginator.previous_page %}
+<h2>Older posts</h2>
+{% else %}
+<h2>Recent posts</h2>
+{% endif %}
 
-## Why I made this blog?
+{% if paginator.page == 1 %}
+{% for latest_post in paginator.posts limit:1 %}
+<div class="jumbotron" style="background:rgb(0,0,0,0.8)!important">
+	<h2>{{latest_post.title}}</h3>
+            <p>
+                <a class="btn btn-lg btn-primary" href="{{latest_post.url}}" role="button">Read more»</a>
+            </p>	
+</div>
+{% endfor %}
 
-I felt the need of a source which can help me in finding the programs related to my course and I saw that most of the sites or the blogs available are not that much oriented towards courses of Lucknow University, and  there are hardly few blogs or websites which are providing content for the students in Lucknow University.
+<div class="row">
+	{% for post in paginator.posts offset:1 %}
+		<div class="col-lg-12" >	
+			<ul class="list-group">
+				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">			    
+				<div class="row">				
+					<div class="col-lg-10" >	
+						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
+					</div>
+					<div class="col-lg-2" >		
+						<span class="badge" style="margin:1px;">Author: {{ post.author }}</span>	
+						<span class="badge" style="margin:1px;">{{post.date|date_to_string}}</span>	
+					</div>		
+				</div>	
+				</li>
+			</ul>	
+		</div>			
+{% endfor %}
+</div> 
+
+{% else %}
+
+
+<div class="row">
+	{% for post in paginator.posts %}
+		<div class="col-lg-12" >	
+			<ul class="list-group">
+				<li class="list-group-item" style="background:rgb(0,0,0,0.8)!important">			    
+<div class="row">				
+	<div class="col-lg-10" >	
+						<a href="{{post.url}}">{{ post.title | capitalize }}</a>
+	</div>
+	<div class="col-lg-2" >		
+						<span class="badge" style="margin:1px;">Author: {{ post.author }}</span>	
+						<span class="badge" style="margin:1px;">{{post.date|date_to_string}}</span>	
+	</div>		
+</div>	
+				</li>
+			</ul>	
+		</div>			
+{% endfor %}
+</div> 
+
+{% endif %}
+
+<!-- Pagination links -->
+<div class="row">
+<div class="col-sm-5">
+</div>
+<div class="col-sm-4">	
+<ul class="pagination">
+  {% if paginator.previous_page %}
+	<li class="active"><a href="{{ paginator.previous_page_path }}"  style="cursor:pointer!important;">«</a></li>
+  {% else %}
+	<li class="disabled"><a>«</a></li>
+  {% endif %}
+  
+  <li class="disabled"><a>Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
+  
+  {% if paginator.next_page %}
+	<li class="active"><a href="{{ paginator.next_page_path }}"  style="cursor:pointer!important;">»</a></li>
+  {% else %}
+	<li class="disabled"><a>»</a></li>
+  {% endif %}
+</ul>
+</div>
+<div class="col-sm-3">
+</div>
+</div>
