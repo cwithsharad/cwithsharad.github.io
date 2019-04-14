@@ -7,10 +7,6 @@ description: A site dedicated to Computer Science and Technnology.It was Launche
  <h2 class="display-3" style="color:white!important">  Hi! there Folks, this is {{ site.author.name }}</h2>
   <p class="lead" style="color:blue!important">{{ site.author.description }}</p>
 
-### Reason behind starting this blog
-
-I felt the need of a source which can help me in finding the programs related to my course and I saw that most of the sites or the blogs available are not that much oriented towards courses of Lucknow University, and  there are hardly few blogs or websites which are providing content for the students in Lucknow University.
-
   <hr class="my-4">
   <h5 class="display-3">Skills</h5>
 <div class="row">  
