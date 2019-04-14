@@ -38,7 +38,7 @@ plugins:
 
 markdown: kramdown
 paginate: 10
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 author:
   name: Sharad Raj
   description: A passionate <strong>developer and student</strong>, learning to be
@@ -57,10 +57,8 @@ author:
 google_analytics_token: ''
 disqus_short_name: cwithsharad
 toc:
-- title: Home
-  url: "/"
 - title: Blog
-  url: "/blog/"
+  url: "/"
 - title: Categories
   url: "/categories/"
 - title: Search
