@@ -90,9 +90,6 @@ skills:
 - title: C++
   level: 81
   color: info
-- title: Python
-  level: 69
-  color: info
 - title: Linux
   level: 54
   color: info
@@ -108,6 +105,6 @@ skills:
 - title: Liquid
   level: 27
   color: info
-- title: Kotlin
-  level: 37
-  color: info
+- title: Python
+  level: 27
+  color: info  
