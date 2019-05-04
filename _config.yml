@@ -67,14 +67,18 @@ toc:
     url: https://sharadcodes.github.io/BMS
   - page: TIC-TAC-2 GAME
     url: https://sharadcodes.github.io/tictac2/
+  - page: Run-CPP
+    url: https://sharadcodes.github.io/runcpp/    
   - page: MARKDOWN to JSON API
-  - url: https://sharadcodes.github.io/post_api/merged_file.json
+    url: https://sharadcodes.github.io/post_api/merged_file.json
   - page: JSON API based blog
-  - url: https://sharadcodes.github.io/api_website/
+    url: https://sharadcodes.github.io/api_website/
+  - page: Jekyll Theme Bootblog
+    url: https://sharadcodes.github.io/bootblog/
+  - page: Jekyll Theme Simplifico
+    url: https://sharadcodes.github.io/simpilfico/
   - page: FUN-WITH-C
     url: https://sharadcodes.github.io/funwithc/
-  - page: Run-CPP
-    url: https://sharadcodes.github.io/runcpp/
 - title: Online chat
   url: "/chat"
 - title: Download CWS App
