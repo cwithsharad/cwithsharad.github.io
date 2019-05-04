@@ -67,6 +67,10 @@ toc:
     url: https://sharadcodes.github.io/BMS
   - page: TIC-TAC-2 GAME
     url: https://sharadcodes.github.io/tictac2/
+  - page: MARKDOWN to JSON API
+  - url: https://sharadcodes.github.io/post_api/merged_file.json
+  - page: JSON API based blog
+  - url: https://sharadcodes.github.io/api_website/
   - page: FUN-WITH-C
     url: https://sharadcodes.github.io/funwithc/
   - page: Run-CPP
@@ -106,3 +110,6 @@ skills:
 - title: Python
   level: 27
   color: info  
+- title: Git
+  level: 30
+  color: info
