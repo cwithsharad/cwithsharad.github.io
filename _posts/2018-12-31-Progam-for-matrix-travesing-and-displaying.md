@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Program for traversing and displaying a matrix"
-author: Priyansh Srivastava
+author: Sharad Raj
 date: 2018-12-31 23:11:00 Z
 categories:
 - DATA STRUCTURES
